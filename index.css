@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 62, 62);
+    font-family: system-ui;
+}
+
+div{
+    background-color: rgb(50, 49, 49);
+    color: white;
+    border: 1px solid gray;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+#boton{
+    margin-top: 20px;
+    list-style: none;
+    color: white;
+    background-color: rgb(50, 49, 49);
+    height: 30px;
+    width: 40%;
+    font-size: medium;
+    border: 0px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+label{
+    text-align: center;
+}
+
